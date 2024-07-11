@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodZilla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FoodZilla</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to FoodZilla</h1>
+            <p>Order your favorite food online!</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+    
+    <section id="menu">
+        <div class="our-menu">
+            <h1>Our Menu</h1>
+        </div>
+        <div class="menu-item">
+            <img src="./images/pizza.jpg" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>Delicious cheese pizza</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="./images/burger.jpg" alt="Burger">
+            <h3>Burger</h3>
+            <p>Juicy beef burger</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="./images/pasta.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>Italian pasta with tomato sauce</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to FoodZilla, your ultimate destination for a delightful food ordering experience! Founded with a passion for great food and exceptional service, FoodZilla brings together a wide variety of cuisines and dishes right to your doorstep. Whether you crave traditional flavors or adventurous new tastes, we have something for everyone.</p>
+        <p>Our mission is to make food ordering easy, fast, and enjoyable. With a user-friendly platform and a commitment to quality, we partner with the best restaurants and chefs in the city to ensure you get the finest meals every time. From mouth-watering pizzas and juicy burgers to gourmet dishes and healthy options, FoodZilla is here to satisfy all your culinary desires.</p>
+        <p>At FoodZilla, we value our customers and strive to provide an exceptional experience from start to finish. Our dedicated team is always ready to assist you with any queries or issues, ensuring your satisfaction is our top priority. Join us on this delicious journey and discover why FoodZilla is the go-to choice for food lovers everywhere.</p>
+        <p>Thank you for choosing FoodZilla. We look forward to serving you!</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Foodies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
